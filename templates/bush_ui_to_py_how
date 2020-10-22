@@ -1,0 +1,8 @@
+cd Dev\Spectro_convolution\venv
+.\Scripts\activate
+cd ..
+cd templates
+python.exe -m PyQt5.uic.pyuic ReferenceWindowClass.ui -o ReferenceWindowClass.py
+python.exe -m PyQt5.uic.pyuic SpectrumWindowClass.ui -o SpectrumWindowClass.py
+python.exe -m PyQt5.uic.pyuic OutputFileWindowClass.ui -o OutputFileWindowClass.py
+python.exe -m PyQt5.uic.pyuic MainWindowClass.ui -o MainWindowClass.py

@@ -12,7 +12,7 @@ Program for convolving a spectrum with destination data
 - the spectrum for convolution must be in a text file (.txt, .csv, .tsv) and its units must be A, µm, nm, or cm-1
 - the destination wavelength must be in A, µm, nm, or cm-1 and can be in a text file or generated as a linear function (with start, end, and step values)
 - three convolution functions are provided: Gaussian, Triangle and Trapeze
-- parameter of the convolution function (the width for all finctions and the top for Trapeze) can be in a text file, generated as a linear function or be defined as constants
+- parameter of the convolution function (the width for all functions and the top for Trapeze) can be in a text file, generated as a linear function or be defined as constants
 - once the spectral and destination data is defined, it is possible to test them (mainly for the purpose of signaling if there are any edge effects)
 - once the convolution has been calculated, it is possible to plot the result (with the initial spectrum) or to save it as a text file (.txt)
 

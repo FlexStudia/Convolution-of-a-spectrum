@@ -15,8 +15,9 @@ from templates.ReferenceWindowClass import Ui_Dialog as Ui_ReferenceDialog
 from templates.OutputFileWindowClass import Ui_Dialog as Ui_OutputFileDialog
 
 # GLOBALS
-__version__ = 0.95
-__copyright__ = "CC-BY 4.0 (Authors attribution alone required)"
+__version__ = 0.96
+__copyright__ = "<a href='https://creativecommons.org/licenses/by/4.0/deed.fr'>CC-BY 4.0</a> (Authors attribution alone required)"
+__GitHub_repos__ = "https://github.com/FlexStudia/Convolution-of-a-spectrum"
 __author_mail__ = "flex.studia.dev@gmail.com"
 __bug_support_mail__ = "convolution.of.a.spectrum@gmail.com"
 
@@ -183,6 +184,7 @@ class ConvolutionMainW(QtWidgets.QMainWindow):
     def show_about(self):
         self.dialog_ok(f"<b>Convolution of a Spectrum</b> v{__version__}"
                        f"<p>Copyright: {__copyright__}</p>"
+                       f"<p><a href='{__GitHub_repos__}'>GitHub repository</a> (program code and more information)</p>"
                        f"<p>Created by Gorbacheva Maria ({__author_mail__})</p>"
                        "<p>Scientific base by Bernard Schmitt, IPAG (bernard.schmitt@univ-grenoble-alpes.fr)</p>"
                        f"<p>For any questions and bug reports, please, mail at {__bug_support_mail__}</p>"
